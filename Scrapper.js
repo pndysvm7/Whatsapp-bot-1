@@ -130,3 +130,8 @@ let runningStatus = async(url) => {
     return runningDetails;
 }
 
+
+module.exports.runningStatus = runningStatus;
+module.exports.amazonPrice =amazonPrice;
+module.exports.flipkartPrice = flipkartPrice;
+
